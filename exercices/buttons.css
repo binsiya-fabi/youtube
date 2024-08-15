@@ -1,0 +1,156 @@
+.SUBSCRIBE-button{
+  background-color: rgb(188, 15, 15);
+  color:white;
+  width:107px;
+  height: 36px;
+  border:none;
+  border-radius:2px;
+  cursor:pointer ;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+  .SUBSCRIBE-button:hover{
+  opacity:0.5;
+}
+
+ .SUBSCRIBE-button:active{
+ background-color: aqua;
+ }
+
+
+.join-button{
+  background-color: white;
+  border-color: rgb(0, 123, 255);
+  color:rgb(0, 123, 255);
+  height:36px ;
+  width: 63px;
+  border-style: solid;
+  border-radius: 2px;
+  cursor: pointer;
+  border-width: 1px;
+  transition: background-color 0.15s,
+  color 0.15s;
+}
+
+.join-button:hover{
+  background-color: rgb(0, 123, 255);
+  color:white;
+}
+
+.join-button:active{
+  opacity: 0.5;
+}
+
+
+
+.tweet-button{
+  background-color: rgb(0, 145, 255);
+  color:white;
+  border-style: none;
+ padding-left: 16px;
+ padding-right: 16px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.tweet-button:hover{
+  box-shadow: 10px 10px 5px rgba(0, 0,0, 0.15);
+}
+
+
+.request-button{
+  width: 107px;
+  height: 36px;
+  background-color: black;
+  color:white;
+  transition: background-color 0.15s;
+}
+
+   .request-button:hover{
+   opacity: 0.5;
+   }
+
+
+.addtocart-button{
+  background-color: rgb(231, 206, 81);
+  color:black;
+  border:none;
+  height: 36px;
+  width: 150px;
+  border-radius: 18px;
+ margin-left: 5px;
+ font-size: 15px;
+
+}
+
+.Signup-button{
+  background-color: #53c573;
+  color: aliceblue;
+  border:none;
+  border-radius: 5px;
+  height: 36px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+  
+}
+
+.Signup-button:hover{
+  box-shadow: 0px 10px 10px  rgba(16, 15, 15,0.5);
+ 
+}
+
+
+
+
+
+.getstarted-button{
+background-color: rgb(181, 120, 242);
+color: white;
+height: 36px;
+width: 110px;
+border:none;
+border-radius: 5px;
+font-weight: bold;
+margin-left: 5px;}
+
+.download-button{
+  height: 36px;
+  width:110px ;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  font-weight: bold;
+  color: gray;
+  margin-left: 7px;
+
+}
+
+.linkedin1-button{
+  height: 36px;
+  width: 210px;
+  border-radius:18px ;
+  border: none;
+  background-color: rgb(60, 131, 202);
+  color: white;
+  font-weight: bold;
+}
+
+.linkedin2-button{
+
+  background-color: white;
+  border-color:rgb(60, 131, 202) ;
+  height: 36px;
+  width:75px;
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(60, 131, 202);
+  font-weight: bold;
+  
+}
+

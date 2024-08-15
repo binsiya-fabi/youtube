@@ -1,0 +1,56 @@
+p{
+  font-family:Arial, Kalnia Glaze ;
+
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.heading{
+
+font-weight: bold;
+font-size: 18px;
+width: 300px;
+margin-bottom: 2px;
+line-height: 25px;
+}
+
+.time{
+color:  rgb(96, 96, 96);
+font-size: 15px;
+margin-bottom: 16px;
+
+}
+
+.author{
+color:  rgb(96, 96, 96);
+font-size: 14px;
+margin-bottom: 15px;
+}
+
+.define{
+color:  rgb(96, 96, 96);
+font-size: 14px;
+width: 280px;
+line-height: 20px;
+margin-bottom: 100px;
+}
+
+.apple{
+margin-bottom: 20px;
+background-color: red;
+color: white;
+text-align: center;
+padding-top: 16px;
+padding-bottom: 16px;
+font-size: 14px;
+cursor: pointer;
+}
+
+.span-eg:hover{
+text-decoration: underline;
+}
+
+.span-eg:active{
+color:rgb(255, 153, 127);
+}

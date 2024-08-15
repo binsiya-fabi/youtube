@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+     .thumb-div{
+      background-color: aquamarine;
+      width: 200px;
+      height: 300px;
+      position: relative;
+      
+     }
+     
+     .absolute{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: black;
+      color: aliceblue;
+      z-index: 2;
+    </style>
+  </head>
+  <body style="padding-bottom: 3000px; padding-top: 100px; padding-left: 200px; padding-right: 2000px;">
+
+    <div style="background-color: black ;
+    color: aliceblue;
+    position:fixed;
+    width: 120px;
+    left: 0px;
+    bottom: 0;
+    top: 100px;
+    ">
+      SLIDE BAR
+      <div style="position: absolute;
+      background-color: aquamarine;
+      color: rgb(0, 0, 0);
+      right: 5px;
+      bottom: 5px;
+    " >absolute</div>
+    </div>
+ 
+
+
+<div style="background-color: black ;
+    color: aliceblue;
+    position:fixed;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    top: 0px;
+    z-index: 100;
+    "> 
+    HEADER
+</div>
+
+
+
+    <div style="
+      background-color: darkblue;
+      color: aliceblue;
+      height: 400px;
+      width: 400px;
+      margin-bottom: 5px;
+      position: relative;
+      
+      ">
+      div 1
+      <div style="position: absolute;
+      background-color: aquamarine;
+      z-index: 4;
+      right: 10px;
+      color: black;
+      bottom: 10px;
+      ">absolute</div>
+      </div>
+
+      
+
+
+    <div style="
+    background-color: darkmagenta;
+    color: aliceblue;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 50px;
+    "> div 2</div>
+
+    <div style="
+    width: 300px;
+    height: 200px;
+    background-color: lightgrey;
+    ">relative
+      <div style="
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    position: relative; /* Position the element relative to its normal position */
+    bottom: 50px;
+    right: 50px;
+    
+      "> this is another Relative
+      </div>
+    </div>
+
+
+
+<div style="position: absolute;
+background-color: aquamarine;
+z-index: 1;
+color: black;
+bottom: 0;
+right: 0;
+
+">absolute</div>
+
+
+<div class="thumb-div">
+  <div class="absolute">absolute</div>
+</div>
+
+  </body>
+</html>

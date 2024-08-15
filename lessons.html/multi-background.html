@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Background Images Stacked Vertically</title>
+    <style>
+        /* General styles to remove margin and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Section styles */
+        .section {
+            height: 100vh; /* Each section takes 100% of the viewport height */
+            background-size: cover; /* Cover the entire section */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        }
+
+        /* First section with the first background image */
+        .section-1 {
+            background-image: url('/thumbnails/thumb.4.webp');
+        }
+
+        /* Second section with the second background image */
+        .section-2 {
+            background-image: url('/thumbnails/thumbnail-1.webp');
+        }
+    </style>
+</head>
+<body>
+    <!-- First section with the first background image -->
+    <div class="section section-1">
+        <!-- Optional content can go here -->
+    </div>
+
+    <!-- Second section with the second background image -->
+    <div class="section section-2">
+        <!-- Optional content can go here -->
+    </div>
+</body>
+</html>

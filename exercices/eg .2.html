@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Scrollable Header without Scrollbar</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        header {
+            height: 100px; /* Fixed height for the header */
+            background-color: lightblue;
+            overflow-x: scroll; /* Enable horizontal scrolling */
+            overflow-y: hidden; /* Hide vertical scrollbar */
+            white-space: nowrap; /* Prevent content from wrapping to the next line */
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+            scrollbar-width: none;  /* Firefox */
+        }
+        header::-webkit-scrollbar {
+            display: none;
+        }  /* Safari and Chrome */
+        
+        .content {
+            display: flex;
+            height: 100%;
+            width:2000px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .item button {
+            display: inline-block;
+            /* Example width for each item */
+            background-color: lightcoral;
+            margin-right: 10px; /* Optional spacing between items */
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="content">
+          <div class="item">
+            <button>one</button>
+            <button>one</button>
+            <button>one</button>
+            <button>one</button>
+            <button>one</button>
+            <button>one</button>
+            <button>one</button>
+          </div>
+        </div>
+    </header>
+</body>
+</html>
